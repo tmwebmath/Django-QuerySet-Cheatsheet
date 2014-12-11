@@ -1,7 +1,7 @@
 # Cheatsheet for Django QuerySets
 Version courante de Django : [1.7](https://docs.djangoproject.com/fr/1.7/ref/models/querysets/)
 
-Les méthodes qui retournent un nouveau [QuerySets](https://docs.djangoproject.com/fr/1.7/ref/models/querysets/#methods-that-return-new-querysets) **Peuvent être chainées :**
+Les méthodes qui retournent un nouveau [QuerySets](https://docs.djangoproject.com/fr/1.7/ref/models/querysets/#methods-that-return-new-querysets) **peuvent être chainées :**
 
 ````python
 Entry.objects.filter(**kwargs).exclude(**kwargs).order_by(**kwargs)
